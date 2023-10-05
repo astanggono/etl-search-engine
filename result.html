@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Results</title>
+    <style>
+      /* Define styles for the table */
+      .data {
+        border-collapse: collapse;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .data th, .data td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Search Results</h1>
+    <p>Tables displaying the search results are shown below:</p>
+    <!-- Display the first table -->
+    <h2>Table 1</h2>
+    {{ table1 | safe }}
+    <!-- Display the second table -->
+    <h2>Table 2</h2>
+    {{ table2 | safe }}
+    <!-- Display the third table -->
+    <h2>Table 3</h2>
+    {{ table3 | safe }}
+    <!-- Display the fourth table -->
+    <h2>Table 4</h2>
+    {{ table4 | safe }}
+    <!-- Display the fifth table -->
+    <h2>Table 5</h2>
+    {{ table5 | safe }}
+  </body>
+</html>
